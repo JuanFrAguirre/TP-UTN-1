@@ -1,15 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 //Components
-import { Form, Header } from './components';
-
+import { Form, Header } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Form/>
+      {/* <Header /> */}
+      <Form />
     </div>
   );
 }

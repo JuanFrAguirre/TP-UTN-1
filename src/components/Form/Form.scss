@@ -1,3 +1,72 @@
 .form-container {
-    background-color: red;
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+  border: 4px solid #000;
+  border-radius: 2.5rem;
+  background-color: rgba(255, 255, 255, .1);
+  padding: 3rem 3rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-title {
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  width: 100%;
+  color: #000;
+  // text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  margin: 2rem 0;
+  font-family: 'Kufam', cursive;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 60%;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  // width: 60%;
+  border-radius: 1rem;
+  padding: .75rem;
+  border: none;
+  color: #000;
+  outline: none;
+  width: 100%;
+  text-align: center;
+  // box-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, .25);
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.btnRegistrar {
+  width: 100%;
+  border-radius: 1rem;
+  padding: .75rem;
+  border: 0;
+  font-size: 2rem;
+  transition: all .15s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+
+  }
 }
